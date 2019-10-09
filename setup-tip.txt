@@ -1,0 +1,32 @@
+git clone https://github.com/mcorne/test-hello-flask.git
+
+cd test-hello-flask
+
+# macOS/Linux
+sudo apt-get install python3-venv    # If needed
+python3 -m venv envwsl
+source envwsl/bin/activate
+# Windows
+python -m venv envwin
+source env\scripts\activate
+
+
+# select interpreter Python 3.5.3 ... envwsl:venv
+
+pip3 install flask
+
+# run without debugger
+python3 -m flask run # (macOS/Linux)
+python -m flask run # (Windows)
+
+# Add config (test-hello-flask) in Debug window
+# Select Flask to create config in launch.json
+# Select Python: Flask (test-hello-flask) to run debugger
+
+# save app dependencies
+pip freeze > requirements.txt
+
+# reinstall packages in other folder
+python3 -m venv envwsl
+source envwsl/bin/activate
+pip install -r requirements.txt
