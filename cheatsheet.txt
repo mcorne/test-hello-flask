@@ -1,3 +1,6 @@
+# tutorial   : https://code.visualstudio.com/docs/python/tutorial-flask
+# source code: https://github.com/microsoft/python-sample-vscode-flask-tutorial
+
 git clone https://github.com/mcorne/test-hello-flask.git
 
 cd test-hello-flask
@@ -5,8 +8,6 @@ cd test-hello-flask
 # macOS/Linux
 sudo apt-get install python3-venv    # If needed
 python3 -m venv envwsl
-# tutorial   : https://code.visualstudio.com/docs/python/tutorial-flask
-# source code: https://github.com/microsoft/python-sample-vscode-flask-tutorial
 
 source envwsl/bin/activate
 # Windows
