@@ -5,11 +5,13 @@ cd test-hello-flask
 # macOS/Linux
 sudo apt-get install python3-venv    # If needed
 python3 -m venv envwsl
+# tutorial   : https://code.visualstudio.com/docs/python/tutorial-flask
+# source code: https://github.com/microsoft/python-sample-vscode-flask-tutorial
+
 source envwsl/bin/activate
 # Windows
 python -m venv envwin
 source env\scripts\activate
-
 
 # select interpreter Python 3.5.3 ... envwsl:venv
 
@@ -19,6 +21,7 @@ pip3 install flask
 python3 -m flask run # (macOS/Linux)
 python -m flask run # (Windows)
 
+# run with debugger
 # Add config (test-hello-flask) in Debug window
 # Select Flask to create config in launch.json
 # Select Python: Flask (test-hello-flask) to run debugger
