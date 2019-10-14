@@ -1,5 +1,5 @@
 {
     // "python.pythonPath": "envwsl/bin/python"
     // "python.pythonPath": "C:\\Users\\mcorne\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
-    "python.pythonPath": "C:\\Users\\mcorne\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+    "python.pythonPath": "envwsl/bin/python"
 }
